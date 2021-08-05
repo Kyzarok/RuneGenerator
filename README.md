@@ -7,5 +7,5 @@ Used in this project was the Kuzushiji-MNIST dataset of Japanese calligraphy fou
 
 The first attempt used a GAN design found on a blog that worked well on the well known MNIST dataset. I believed that by using a design that performs well on a similar dataset I could get results with minimal effort. I was wrong and the problem became more interesting. This version of a GAN did not perform well even after 10000 epochs of training.
 
-![alt text]()
+![alt text](GAN_generated_image 1000.png)
 

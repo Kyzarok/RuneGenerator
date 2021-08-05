@@ -13,3 +13,5 @@ In trying to find an alterative architecture that would work, I looked into Deep
 ![alt texto](https://github.com/Kyzarok/RuneGenerator/blob/main/GAN_generated_image%2010000.png)
 
 Interestingly, in the first few runs the networks would both learn how to write the most simple character/kanji in Japanese: ichi, the kanji for 'one', a single slightly angled horizontal line. As you can see, after removing this and other simple kanji from the dataset (including ni (two), san (three), ue (up), shita (down) and ko (child)) both methods have learned to try and mimic the only remaining somewhat simple kanji: ki (tree), which includes a prominent vertical line down the middle.
+
+If you would like to use the completed network parameters, the network weights for the Discrimnator and Generator of the DC-GAN have been saved as .pt files. Please use pytorch to make use of them.

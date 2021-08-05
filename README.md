@@ -11,3 +11,5 @@ The first attempt used a GAN design found on a blog that worked well on the well
 In trying to find an alterative architecture that would work, I looked into Deep Convolutional Generative Adversarial Networks, or DC-GANs. These are GANs that incorporate a convolutional layer, allowing them to extract much more relational data in data in a matrix format. Convolutional layers are probably best known for their use in image recognition in famous network designs such as Resnet. Applying this design resulted in significantly improved results.
 
 ![alt texto](https://github.com/Kyzarok/RuneGenerator/blob/main/GAN_generated_image%2010000.png)
+
+Interestingly, in the first few runs the networks would both learn how to write the most simple character/kanji in Japanese: ichi, the kanji for 'one', a single slightly angled horizontal line. As you can see, after removing this and other simple kanji from the dataset (including ni (two), san (three), ue (up), shita (down) and ko (child)) both methods have learned to try and mimic the only remaining somewhat simple kanji: ki (tree), which includes a prominent vertical line down the middle.
